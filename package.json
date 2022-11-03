@@ -1,0 +1,23 @@
+{
+  "name": "csv-json",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Warutere Ian",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "conf": "^10.2.0",
+    "crypto": "^1.0.1",
+    "csvtojson": "^2.0.10",
+    "prompt-sync": "^4.2.0"
+  },
+  "bin": {
+    "csv-json":"./csv-json.js"
+  }
+}
